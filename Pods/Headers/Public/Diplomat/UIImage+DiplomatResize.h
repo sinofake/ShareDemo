@@ -1,0 +1,1 @@
+../../../Diplomat/Sources/UIImage+DiplomatResize.h

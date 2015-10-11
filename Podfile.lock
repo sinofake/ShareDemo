@@ -1,0 +1,21 @@
+PODS:
+  - Diplomat (0.3.5):
+    - Diplomat/Core (= 0.3.5)
+    - Diplomat/Tencent (= 0.3.5)
+    - Diplomat/Wechat (= 0.3.5)
+    - Diplomat/Weibo (= 0.3.5)
+  - Diplomat/Core (0.3.5)
+  - Diplomat/Tencent (0.3.5):
+    - Diplomat/Core
+  - Diplomat/Wechat (0.3.5):
+    - Diplomat/Core
+  - Diplomat/Weibo (0.3.5):
+    - Diplomat/Core
+
+DEPENDENCIES:
+  - Diplomat
+
+SPEC CHECKSUMS:
+  Diplomat: 6328abc2f830e7ccfd81c277f0974bd06da12e22
+
+COCOAPODS: 0.39.0

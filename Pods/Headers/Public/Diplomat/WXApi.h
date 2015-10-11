@@ -1,0 +1,1 @@
+../../../Diplomat/Sources/Wechat/WXApi.h

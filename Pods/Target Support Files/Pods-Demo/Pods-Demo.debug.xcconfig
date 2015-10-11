@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Diplomat"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Diplomat/Sources/Tencent" $(inherited) "${PODS_ROOT}/Diplomat/Sources/Wechat" $(inherited) "${PODS_ROOT}/Diplomat/Sources/Weibo"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Diplomat"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Diplomat" -l"TencentOpenAPI" -l"WeChatSDK" -l"WeiboSDK" -l"sqlite3" -l"stdc++" -l"z" -framework "CoreTelephony" -framework "ImageIO" -framework "SystemConfiguration"
+PODS_ROOT = ${SRCROOT}/Pods
