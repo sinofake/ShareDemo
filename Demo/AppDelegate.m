@@ -21,11 +21,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[Diplomat sharedInstance] registerWithConfigurations:@{kDiplomatTypeWeibo: @{kDiplomatAppIdKey: @"3775309307",
+    [[Diplomat sharedInstance] registerWithConfigurations:@{kDiplomatTypeWeibo: @{kDiplomatAppIdKey: @"1815822993",
                                                                                   kDiplomatAppRedirectUrlKey: @"http://www.kanghe.com"},
                                                             kDiplomatTypeWechat: @{kDiplomatAppIdKey: @"wxd930ea5d5a258f4f",
                                                                                    kDiplomatAppSecretKey: @"db426a9829e4b49a0dcac7b4162da6b6"},
-                                                            kDiplomatTypeQQ: @{kDiplomatAppIdKey: @"1101777551"}}];
+                                                            kDiplomatTypeQQ: @{kDiplomatAppIdKey: @"1102909370"}}];
     return YES;
 }
 

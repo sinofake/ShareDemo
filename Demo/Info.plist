@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.sskh.Fitness1229</string>
+	<string>com.sskh.huaErSlimmingRing</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -25,9 +25,9 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wb3775309307</string>
+				<string>wb1815822993</string>
 				<string>wxd930ea5d5a258f4f</string>
-				<string>tencent1101777551</string>
+				<string>tencent1102909370</string>
 			</array>
 		</dict>
 	</array>
