@@ -118,6 +118,15 @@
                                       
                                   }];
      /**
+      登录成功：resutl: DTUser对象, error: nil
+      如果登录失败或用户取消登录，可通过如下对象捕获错误码：
+      1.微信：error.code: WXErrCode
+      2.微博：error.code: WeiboSDKResponseStatusCode
+      3.QQ： error.code： -1024，这里的error.code=-1024是在Diplomat中手动加入的，因为QQ没有提供Code的捕获方法，所以如果发生error，这里可以直接读取错误信息error.localizedDescription
+      
+      
+      
+      
      登录成功：resutl: DTUser对象, error:nil
      用户取消登录: resutl:nil,
      微信登录成功：
