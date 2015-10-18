@@ -36,6 +36,7 @@
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
 {
+    //NSLog(@"url:%@, sourceApplication:%@, annotation:%@", url, sourceApplication, annotation);
     return [[Diplomat sharedInstance] handleOpenURL:url];
 }
 
